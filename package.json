@@ -1,0 +1,27 @@
+{
+  "name": "p5arts",
+  "version": "1.0.0",
+  "description": "Students will apply p5.js to the artwork",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GayaChoi/p5Arts.git"
+  },
+  "keywords": [
+    "art"
+  ],
+  "author": "Gaya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GayaChoi/p5Arts/issues"
+  },
+  "homepage": "https://github.com/GayaChoi/p5Arts#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
