@@ -1,20 +1,19 @@
-let bg;
-let y = 0;
-
 function setup() {
-   bg = loadImage('../Assets/images/time.jpg'); 
-   createCanvas(640, 480);
+   createCanvas(400, 300);
 }
 
 function draw() {
-   background(bg);
+   background('#000000');
    
-   stroke(266, 204, 0);
-   line(0, y, width, y);
+   rectMode(CENTER);
 
-   y++;
-   if (y > height) {
-     y = 0;
-   }
+   fill(0, 255, 0);
+   stroke(0, 0, 255);
+   strokeWeight(8);
+   rect(200, 150, 150, 150);
+   
+   fill(255, 0, 0);
+   noStroke();
+   ellipse(150, 250, 100, 75);  
 }
 

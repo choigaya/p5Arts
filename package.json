@@ -4,7 +4,7 @@
   "description": "Students will apply p5.js to the artwork",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
